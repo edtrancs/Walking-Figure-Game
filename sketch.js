@@ -225,7 +225,7 @@ function draw()
     if (flagpole.isReached) {
         fill(255);
         textAlign(CENTER, CENTER);
-        text("Level complete. Press space to continue.", gameChar_x, height/2);
+        text("Level complete. Press your browser's restart button to replay.", gameChar_x, height/2);
         return; // Prevent further game logic
     }
 	
